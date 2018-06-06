@@ -2,6 +2,25 @@
 
 The Alert  component is like the iOS one. It brings you a fade centered window menu with buttons. By default, the element is **hidden** and you need to add `ka-Alert__animate` to the parent element in order to make it visible with the animation.
 
+<div class="demo-block" style="height: 280px;">
+    <div class="ka-Alert__dialog" style="display: block; position: absolute;">
+        <div class="ka-Alert__dialog-container">
+        <!-- Title -->
+        <div class="ka-Alert__dialog-title">Title</div>
+        <!-- Content -->
+        <div class="ka-Alert__dialog-content">
+        Here is some content!        
+        </div>
+        <!-- Footer -->
+        <div class="ka-Alert__dialog-footer">
+            <!-- Add your buttons list here -->
+            <button class="ka-Alert__dialog-button">Ok</button>
+        </div>
+        </div>
+    </div>
+    <div class="ka-Alert__dialog-mask" style="position: absolute;"></div>
+</div>
+
 The **mask** is triggered simply by adding `display:block` or `display: none`. The best way will be to add this mask in the DOM only when the component is active.
 
 ```html

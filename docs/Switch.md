@@ -2,11 +2,19 @@
 ####  Like turning your lights on!
 
 !> Redaction in Progress
-
+<div class="demo-block">
+  <div class="ka-Switch" style="width: 48px;">
+    <input type="checkbox" class="ka-Switch__input" id="id">
+    <label for="id">
+      <span class="off-icon"></span>
+      <span class="on-icon"></span>
+    </label>
+  </div>
+</div>
 ```html
 <div class="ka-Switch">
-  <input type="checkbox" class="ka-Switch__input" id="">
-  <label for="">
+  <input type="checkbox" class="ka-Switch__input" id="switch">
+  <label for="switch">
     <span class="off-icon"></span>
     <span class="on-icon"></span>
   </label>

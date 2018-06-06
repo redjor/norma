@@ -1,8 +1,15 @@
 # Loading
 #### It won't be too long
-
 The loading component is a spinner at the center of the window.
 
+<div class="demo-block" style="height: 180px;">
+  <div class="ka-Loading ka-Loading__transparent" style="position: absolute;">
+    <div class="ka-Loading__wrapper">
+      <div class="ka-Loading__spinner"></div>
+      <div class="ka-Loading__caption">Loading...</div>
+    </div>
+  </div>
+</div>
 
 ```html
 <div class="ka-Loading">
@@ -39,11 +46,11 @@ You can use these variables to customize the Form and the Fieldset. Simply set o
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$LoadingSpinnerColor`|#ffffff |
-|`$LoadingSpinnerSize`| 32px |
-|`$LoadingSpinnerSpeed`| .8s |
-|`$LoadingSpinnerThickness`| 8px |
-|`$LoadingBorderRadius`| 5.5px |
-|`$LoadingBgColor`| black |
-|`$LoadingFullscreenBgColor`| rgba(black , .75) |
-|`$LoadingBoxShadow`| 0 1rem 2rem rgba(0,0,0,.2) |
+|`$LoadingSpinnerColor`| `#fff` |
+|`$LoadingSpinnerSize`| `32px` |
+|`$LoadingSpinnerSpeed`| `.8s` |
+|`$LoadingSpinnerThickness`| `8px` |
+|`$LoadingBorderRadius`| `5.5px` |
+|`$LoadingBgColor`| `black` |
+|`$LoadingFullscreenBgColor`| `rgba(black , .75)` |
+|`$LoadingBoxShadow`| `0 1rem 2rem rgba(0,0,0,.2)` |

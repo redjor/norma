@@ -1,5 +1,5 @@
 # Spacing
-#### I think you need some space
+#### I think we need some space
 
 You can add some paddings to your element, just by adding `.ka-Spacing__base`class & you will have by default **16px** all around.
 

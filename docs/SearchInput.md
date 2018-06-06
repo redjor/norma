@@ -1,11 +1,14 @@
 # SearchInput
 #### Let me check it out !
-<a href="https://ibb.co/bUD0V8"><img src="https://image.ibb.co/dmOdHo/Search_Input.png" alt="Search_Input" border="0" height="48"></a>
-
 The Search component provides you a search input.
 
+<div class="demo-block">
+  <input type="search" class="ka-SearchInput" placeholder="Search">
+</div>
+
+
 ```html
-<input type="search" class="ka-SearchInput">
+<input type="search" class="ka-SearchInput" placeholder="Search">
 ```
 
 ***

@@ -1,9 +1,18 @@
 # Checkbox
 #### The 2-state Box
-
-<a href="https://ibb.co/fuffLo"><img src="https://image.ibb.co/ibhufo/checkbox.png" alt="checkbox" border="0" height="64px"></a>
-
 We have hidden the native radio button and wrapped in `.ka-Checkbox` in order to have full control on the design.
+
+<div class="demo-block">
+  <div class="ka-Checkbox">
+    <input type="checkbox" name="checkbox" id="2" class="ka-Checkbox__input">
+    <div class="ka-Checkbox__container">
+      <label class="ka-Checkbox__checkbox" for="2"></label>
+      <label class="ka-Checkbox__label" for="2">Checkbox</label>
+    </div>
+    <div class="ka-Checkbox__description">Such a good place to add a description</div>
+  </div>
+</div>
+
 
 You can append a description below your checkbox.
 
@@ -13,7 +22,7 @@ You can append a description below your checkbox.
 <div class="ka-Checkbox">
   <input type="checkbox" name="" id="ID" class="ka-Checkbox__input">
   <div class="ka-Checkbox__container">
-    <span class="ka-Checkbox__checkbox" for="ID"></span>
+    <label class="ka-Checkbox__checkbox" for="ID"></label>
     <label class="ka-Checkbox__label">Label</label>
   </div>
 </div>

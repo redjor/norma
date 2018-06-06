@@ -2,17 +2,23 @@
 
 !> Redaction in Progress
 
+<div class="demo-block">
+  <div class="ka-Toast ka-Toast--success" style="position: relative; display: flex; width: 100%;">
+    <div class="ka-Toast__message">I'm a toast element</div>
+    <button class="ka-Toast__button">Close</button>
+  </div>
+</div>
 
 `.ka-Toast`
 
 ```html
 <div class="ka-Toast">
   <div class="ka-Toast__message"></div>
-  <button class="ka-Toast__button></button>
+  <button class="ka-Toast__button"></button>
 </div>
 ```
 
->The Toast is hidden by **default**, so you need to add `.ka-Toast__visible` to `.ka-Toast`.
+>The Toast is hidden by **default**, so you need to add `ka-Toast__visible` to `ka-Toast`.
 
 
 

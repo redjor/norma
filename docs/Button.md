@@ -1,9 +1,22 @@
 # Button
 #### Don't push me too hard
-
-<a href="https://ibb.co/g6zCSo"><img src="https://image.ibb.co/evpqDT/button.png" alt="button" border="0" height="128"></a>
-
 The Button component displays a regular button with differents styles and colors.
+
+<div class="demo-block">
+  <div class="ka-Buttons"> 
+    <button class="ka-Button ka-Button--white">White</button>
+    <button class="ka-Button ka-Button--light">Light</button> 
+    <button class="ka-Button ka-Button--dark"> Dark</button>
+    <button class="ka-Button ka-Button--black">Black</button>
+    <button class="ka-Button ka-Button--text">Text</button>
+    <button class="ka-Button ka-Button--primary">Primary</button>
+    <button class="ka-Button ka-Button--link">Link</button> 
+    <button class="ka-Button ka-Button--info">Info</button> 
+    <button class="ka-Button ka-Button--success">Success</button> 
+    <button class="ka-Button ka-Button--warning">Warning</button> 
+    <button class="ka-Button ka-Button--danger">Danger</button>
+  </div>
+</div>
 
 The `ka-Button` class can be used on:
 

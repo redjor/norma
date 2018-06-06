@@ -2,6 +2,16 @@
 #### I'll  keep the message
 !> Redaction in Progress
 
+<div class="demo-block">
+  <div class="ka-TextInput">
+    <input class="ka-TextInput__input" placeholder="Input">
+    <label class="ka-TextInput__label">
+      <i class="fa far fa-money-check"></i>
+        Label
+    </label>
+  </div>
+</div>
+
 ```html
 <input class="ka-TextInput__input">
 ```
