@@ -95,12 +95,12 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$AlertTitleColor` | black |
-|`$AlertContentColor` | black |
-|`$AlertButtonHeight` | 44px |
-|`$AlertButtonColor` | #0076ff |
-|`$AlertButtonBorderColor` | #ddd |
-|`$AlertDialogPadding` | 8px 16px 16px |
-|`$AlertBorderRadius` | 11px |
-|`$AlertBgColor` | white |
-|`$AlertZIndex` | 999 |
+|`$AlertTitleColor` | `black` |
+|`$AlertContentColor` | `black` |
+|`$AlertButtonHeight` | `44px` |
+|`$AlertButtonColor` | `#0076ff` |
+|`$AlertButtonBorderColor` | `#ddd` |
+|`$AlertDialogPadding` | `8px 16px 16px` |
+|`$AlertBorderRadius` | `11px` |
+|`$AlertBgColor` | `white` |
+|`$AlertZIndex` | `999` |

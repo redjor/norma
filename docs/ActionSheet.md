@@ -2,6 +2,15 @@
 
 The ActionSheet  component is like the iOS one. It brings you a bottom menu with actions list. By default, the element is **hidden** and you need to add `ka-ActionSheet__animate` to the parent element in order to make it visible with the animation.
 
+<div class="demo-block" style="height: 260px;">
+  <div class="ka-ActionSheet__mask" style="display:block;"></div>
+  <div class="ka-ActionSheet" style="display:block;transform: translateY(0);">
+    <button class="ka-ActionSheet__button">Label</button>
+    <button class="ka-ActionSheet__button">Label</button>
+    <button class="ka-ActionSheet__button ka-ActionSheet__button--destructive">Cancel</button>
+  </div>
+</div>
+
 The **mask** is triggered simply by adding `display:block` or `display: none`. The best way will be to add this mask in the DOM only when the component is active.
 
 ```html
@@ -49,7 +58,7 @@ Add this code to a button to trigger the function.
 ```js
  onclick="createActionSheetDialog(id, maskId)"
 ```
-!> You are free to use your own function, and It's highly recommanded !
+!> You are free to use your own function and it's highly recommanded !
 ***
 Variables
 ------
@@ -57,8 +66,8 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$ActionSheetButtonColor`| #0076ff |
-|`$ActionSheetButtonBgColor` |rgba(255, 255, 255, 0.9) |
-|`$ActionSheetBorderColor `|#D5D5D5 |
-|`$ActionSheetBorderRadius` |12px |
-|`$ActionSheetTitleColor`| black |
+|`$ActionSheetButtonColor`| `#0076ff` |
+|`$ActionSheetButtonBgColor` | `rgba(255, 255, 255, 0.9)` |
+|`$ActionSheetBorderColor `| `#D5D5D5` |
+|`$ActionSheetBorderRadius` | `12px` |
+|`$ActionSheetTitleColor`| `black` |

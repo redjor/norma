@@ -1,10 +1,29 @@
 # List
 #### Keep it in order
+A list needs to be contained in an element with `ka-List` class.
 
-<a href="https://ibb.co/gWcRyT"><img src="https://image.ibb.co/mtyAQ8/list.png" alt="list" border="0" height="140px"></a>
-
-A list needs to be contained in an element with `.ka-List` class.
-
+<div class="demo-block">
+  <div class="ka-List__title">Title</div>
+  <ul class="ka-List ka-List__inset" style="padding-left: 0;">
+    <div class="ka-List__header">Header</div>
+    <li class="ka-List__item">
+      <div class="ka-List__item--left"></div>  
+      <div class="ka-List__item--center">
+        <div class="ka-List__item--title">Title</div>
+      </div>
+      <div class="ka-List__item--right"></div>
+    </li>
+    <li class="ka-List__item ka-List__item--chevron">
+      <div class="ka-List__item--left"></div>  
+      <div class="ka-List__item--center">
+        <div class="ka-List__item--title">Title</div>
+        <div class="ka-List__item--subtitle">Subtitle</div>
+      </div>
+      <div class="ka-List__item--right"></div>
+    </li>
+  </ul>
+  <div class="ka-List__caption">Help your user to understand what is going on above.</div>
+</div>
 
 ```html
 <ul class="ka-List ">
@@ -31,16 +50,16 @@ A caption could be displayed just below the List by adding an element with `ka-L
 
 ### Styles
 The `ka-List` can be stylized with the following class:
-- **No Border** `.ka-List__noborder` class removes all borders.
-- **Inset** `.ka-List__inset` class adds borders with radius and side margins.
-- **Rounded** `.ka-List__rounded` class adds somes border radius *(5.5px by default)*
-- **Shadow** `.ka-List__shadow`class adds a shadow.
+- **No Border** `ka-List__noborder` class removes all borders.
+- **Inset** `ka-List__inset` class adds borders with radius and side margins.
+- **Rounded** `ka-List__rounded` class adds somes border radius *(5.5px by default)*
+- **Shadow** `ka-List__shadow`class adds a shadow.
 
 ***
 
 ## List Item
 
-You need to put at least a `.ka-List__item` class element into `.ka-List`, and you can add as many as you want.
+You need to put at least a `ka-List__item` class element into `ka-List`, and you can add as many as you want.
 
 The list item adapt his height depends on his content, but it has a min-height *(default: 54px)*.
 
@@ -52,8 +71,7 @@ The list item adapt his height depends on his content, but it has a min-height *
 </div>
 ```
 
-> **Any Element**
-> You can add any other element into `.ka-List__item`, like text inputs, radio, checkbox, switch and many things
+> You can add any other element into `ka-List__item`, like text inputs, radio, checkbox, switch and many things
 
 ### Header
 The header `ka-List__header` is like a title but contains in the List container. It needs to be placed just above the List item
@@ -74,9 +92,9 @@ The left element with needs to have `ka-List__item--center` class and can contai
 
 ###  Right
 The left element with needs to have `ka-List__item--right` class and can contains the following elements inside:
-- **Label** : `.ka-List__item--label`
-- **Icon**: `.ka-List__item--icon`
-- **Chevron** : A chevron can be displayed just add `.ka-List__item--chevron` but if you have some elements on the right item, so you need to add `.ka-List__item--chevron__right` to `.ka-List__item--right` in order to add some padding.
+- **Label** : `ka-List__item--label`
+- **Icon**: `ka-List__item--icon`
+- **Chevron** : A chevron can be displayed just add `ka-List__item--chevron` but if you have some elements on the right item, so you need to add `ka-List__item--chevron__right` to `ka-List__item--right` in order to add some padding.
 ```html
 <div class="ka-List__item ka-List__item--chevron">
   <div class="ka-List__item--right ka-List__item--chevron__right"></div>
@@ -87,10 +105,10 @@ The left element with needs to have `ka-List__item--right` class and can contain
 
 The list item can have multiples styles by adding those following class: 
 
-- **Tappable** `.ka-List__item--tappable` class provided an effect for linkable element on mobile.
-- **Long Divider** `.ka-List__item--longdivider` class make the divider fullwidht
+- **Tappable** `ka-List__item--tappable` class provided an effect for linkable element on mobile.
+- **Long Divider** `ka-List__item--longdivider` class make the divider fullwidht
 - **No Divider** `ka-List__item--nodivider__center` & `ka-List__item--nodivider__right` class removes all dividers
-- **No Padding** `.ka-List__item--nopadding` // Will be deprecated
+- **No Padding** `ka-List__item--nopadding` // Will be deprecated
 
 ***
 Variables
@@ -99,24 +117,24 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-| `$listLabelColor`| black |
-| `$listBgColor`| white |
-| `$listInsetRadius`| 5.5px |
-| `$listBorderColor`| #BCBBC1 |
-| `$listShadow`| 0 .1rem .2rem .1rem rgba(0,0,0,.1) |
-| Title ||
-| `$listTitleColor`| black |
-| `$listTitleBgColor`| transparent |
-| `$listTitlePadding`| 4px 16px |
-| Header ||
-| `$listHeaderHeight`| 2rem |
-| `$listHeaderColor`| black |
-| `$listHeaderBgColor`| #F8F8F8 |
-| List Item ||
-| `$listItemHeight`| 54px |
-| `$listItemColor`| black |
-| `$listItemTitleColor`| black |
-| `$listItemSubtitleColor`| grey |
-| `$listItemBorderColor`| lightgrey |
-| `$listThumbnailRadius`| 4px |
-| `$listChevronColor`| black |
+| `$listLabelColor`| `black` |
+| `$listBgColor`| `white` |
+| `$listInsetRadius`| `5.5px` |
+| `$listBorderColor`| `#BCBBC1` |
+| `$listShadow`| `0 .1rem .2rem .1rem rgba(0,0,0,.1)` |
+| **Title** ||
+| `$listTitleColor`| `black` |
+| `$listTitleBgColor`| `transparent` |
+| `$listTitlePadding`| `4px 16px` |
+| **Header** ||
+| `$listHeaderHeight`| `2rem` |
+| `$listHeaderColor`| `black` |
+| `$listHeaderBgColor`| `#F8F8F8` |
+| **List Item** ||
+| `$listItemHeight`| `54px` |
+| `$listItemColor`| `black` |
+| `$listItemTitleColor`| `black` |
+| `$listItemSubtitleColor`| `grey` |
+| `$listItemBorderColor`| `lightgrey` |
+| `$listThumbnailRadius`| `4px` |
+| `$listChevronColor`| `black` |

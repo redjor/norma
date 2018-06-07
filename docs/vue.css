@@ -935,12 +935,10 @@ pre:after {
 .demo-block{
   position: relative;
   overflow: hidden;
-  display: block;
   margin: 2rem 0;
   padding: 2rem;
   border: 1px solid #eaeefb;
   border-radius: 5.5px;
-  height: auto;
 }
 .demo-block::after{
   color: #ccc;
@@ -955,3 +953,40 @@ pre:after {
   text-align: right;
   top: 0;
 }
+
+/* #Demo {
+  position: relative;
+  min-width: 320px;
+  max-width: 800px;
+  min-height: 130px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 10px;
+  }
+
+#Handle {
+  position :absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  background-color: #727272;
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  cursor: se-resize;
+  position:absolute;
+  bottom: 0;
+  flex: 0 0 auto;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 3.2rem;
+  border-top-right-radius: .6rem;
+  border-bottom-right-radius: .6rem;
+  background: #fff;
+  box-shadow: 0 1.2rem 3.6rem rgba(0,0,0,.2);
+  color: #5c6ac4;
+  cursor: ew-resize;
+  }` */

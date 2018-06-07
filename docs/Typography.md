@@ -1,13 +1,32 @@
 # Typography
 #### Too much character ?
-!> Redaction in Progress
 
-In order to stylizing your element, add `.text-style-body` class.
+Use the differents text styles to make your app more readable.
 
-***
-Sizes
-------
+<div class="demo-block" style="height: 500px;display: flex;flex-direction: column;justify-content: space-around;">
+  <div class="text-style-large-title">Large title</div>
+  <div class="text-style-title1">Title 1</div>
+  <div class="text-style-title2">Title 2</div>
+  <div class="text-style-title3">Title 3</div>
+  <div class="text-style-headline">Headline</div>
+  <div class="text-style-body">Body</div>
+  <div class="text-style-callout">Callout</div>
+  <div class="text-style-subhead">Subhead</div>
+  <div class="text-style-footnote">Footnote</div>
+  <div class="text-style-caption1">Caption 1</div>
+  <div class="text-style-caption2">Caption 1</div>
+</div>
 
+?>In order to stylizing your element, add `.text-style-body` class.
+
+## Family
+By default, we don't use other fonts than **System fonts**
+```css
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+```
+
+
+## Sizes
 You have the choice between multiples styles:
 
 | Name | Size |  Weight |  Line Height | Spacing  | Classname |
@@ -24,27 +43,21 @@ You have the choice between multiples styles:
 |Caption1| 12px| 400| 16px| 0 | `.text-style-caption1`|
 |Caption2| 11px| 400| 16px| 0 | `.text-style-caption2`|
 
-***
 
-Alignement
------------
+## Alignement
+We provide some helpers with the following class, in order to align your text.
 
-#### Left
-`.has-text-left`
+|Alignement|Classname|
+|:--------:|:-------:|
+|Left|`.has-text-left`|
+|Center|`.has-text-center`|
+|Right|`.has-text-right`|
+|Justify|`.has-text-justify`|
 
-#### Center
-`.has-text-center`
 
-#### Right
-`.has-text-right`
+## Colors
+!> More colors will be added soon
 
-#### Justify
-`.has-text-justify`
-
-***
-
-Colors
--------
-`.has-black-text`
+You can directly change the text color by adding `.has-black-text` class to it.
 
 >white, black, dark, cloud, danger, success, warning, info

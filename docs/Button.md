@@ -2,7 +2,7 @@
 #### Don't push me too hard
 The Button component displays a regular button with differents styles and colors.
 
-<div class="demo-block">
+<div class="demo-block" id="Demo">
   <div class="ka-Buttons"> 
     <button class="ka-Button ka-Button--white">White</button>
     <button class="ka-Button ka-Button--light">Light</button> 
@@ -19,7 +19,6 @@ The Button component displays a regular button with differents styles and colors
 </div>
 
 The `ka-Button` class can be used on:
-
 - `<a>` anchor links
 - `<button>` form buttons
 - `<input type="submit">` submit inputs
@@ -46,7 +45,7 @@ Use the HTML5 attributes `disabled` will added some opacity to it.
 
 Colors
 -------
-
+You can change the button color by add the following class to the button:
 ```html
 <button class="ka-Button ka-Button--white"></button>
 ```
@@ -69,10 +68,10 @@ Sizes
 We have 3 differents sizes based on the **normal** size:
 
 | Size        | Class  | Height  |
-| ------------- |:-------------:| -----:|
-| Small      | `small` | $buttonHeight\*0.8 |
-| Normal   |   |   $buttonHeight  |
-| Large | `large`  |   $buttonHeight\*1.2  |
+| ------------- |:-------------:|:-----:|
+| Small    | `small` | `$buttonHeight\*0.8` |
+| Normal   |  | `$buttonHeight` |
+| Large | `large`  |   `$buttonHeight\*1.2`  |
 
 Icons
 ------
@@ -105,11 +104,11 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$buttonHeight`| 48px |
-|`$buttonFontSize`| 16px |
-|`$buttonRadius`| 5.5px |
-|`$buttonDisabledOpacity`| .5 |
-|`$buttonsMargin`| .5rem |
+|`$buttonHeight`| `48px` |
+|`$buttonFontSize`| `16px` |
+|`$buttonRadius`| `5.5px` |
+|`$buttonDisabledOpacity`| `.5` |
+|`$buttonsMargin`| `.5rem` |
 
 > More to come
 > - [ ] Loading

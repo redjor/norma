@@ -1,5 +1,5 @@
 # Radio
-#### I know you can turn me on
+#### Hot mix on air
 We have hidden the native radio button and wrapped in `ka-Radio` class element in order to have full control on the new design.
 
 <div class="demo-block">
@@ -28,7 +28,7 @@ You can check a radio button by default by adding the checked HTML attribute to 
 
 Description
 ------
-You can append a description below your label. You need to add a `.ka-Radio__description` at the end of `ka-Radio`.
+You can append a description below your label. You need to add a `ka-Radio__description` at the end of `ka-Radio`.
 
 ```html
 <div class="ka-Radio">

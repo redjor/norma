@@ -1,7 +1,6 @@
 # Switch
 ####  Like turning your lights on!
-
-!> Redaction in Progress
+The Switch component stylize a checkbox into a beautiful on/off switch. For this, we wrapped it into `ka-Switch` element. Th real input is hidden behind all of this. 
 <div class="demo-block">
   <div class="ka-Switch" style="width: 48px;">
     <input type="checkbox" class="ka-Switch__input" id="id">
@@ -21,7 +20,7 @@
 </div>
 ```
 
-!>The classes `.off-icon` & `.on-icon` are directly hard-coded, so you can't add content those elements. You can delete them.
+!>The classes `.off-icon` & `.on-icon` are directly hard-coded, so you can't add content those elements but you can delete them.
 
 ***
 Variables

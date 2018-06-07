@@ -1,6 +1,7 @@
 # Toast
+#### Bread everywhere
 
-!> Redaction in Progress
+The Toast component helps you to display important informations to your user. 
 
 <div class="demo-block">
   <div class="ka-Toast ka-Toast--success" style="position: relative; display: flex; width: 100%;">
@@ -9,7 +10,7 @@
   </div>
 </div>
 
-`.ka-Toast`
+Use the `.ka-Toast` class element below: 
 
 ```html
 <div class="ka-Toast">
@@ -21,17 +22,18 @@
 >The Toast is hidden by **default**, so you need to add `ka-Toast__visible` to `ka-Toast`.
 
 
+### Action
+Add the label action into `ka-Toast__button`.
 
-***
-Position
----------
-`.ka-Toast--top` or `.ka-Toast--bottom`
+### Position
+The toast can be positioned on the **top** or at the **bottom** be adding the following class:
+
+ `.ka-Toast--top` or `.ka-Toast--bottom`
 ```html
 <div class="ka-Toast ka-Toast--top">
 ```
 
-Colors
--------
+### Colors
 | Color  | Classname |
 | ------- |:-----------:|
 |  Default  |`.ka-Toast--default`|
@@ -41,11 +43,26 @@ Colors
 |  Danger |`.ka-Toast--danger`|
 
 
+### JS Example
+We use the following JS function, to add/remove `ka-Toast__visible` to the element.
+
+```js
+var createToastDialog = function(id) {
+    var el = document.getElementById(id);
+    el.classList.add('ka-Toast__visible');
+
+};
+var hideToastDialog = function(id) {
+    var el = document.getElementById(id);
+    el.classList.remove('ka-Toast__visible');
+};
+```
+!> It's highly recommanded to use your own function.
 
 ***
 Variables
 ------
-You can use these variables to customize the Form and the Fieldset. Simply set one or multiple of these variables in `scss/styles/base.scss`.
+You can use these variables to customize it. Simply set one or multiple of these variables in `scss/styles/base.scss`.
 
 | Name  | Default value |
 | ------- |:-----------:|

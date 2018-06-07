@@ -1,6 +1,6 @@
 # SearchInput
 #### Let me check it out !
-The Search component provides you a search input.
+The Search component provides you a search input with style.
 
 <div class="demo-block">
   <input type="search" class="ka-SearchInput" placeholder="Search">

@@ -1,5 +1,6 @@
 # Segment
 #### Sometimes, we need to be separated
+The Segment component allows you to have styled buttons in a bar with only one active button at a time.
 
 <div class="demo-block">
   <div class="ka-Segment">

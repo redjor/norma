@@ -1,6 +1,6 @@
 # Checkbox
 #### The 2-state Box
-We have hidden the native radio button and wrapped in `.ka-Checkbox` in order to have full control on the design.
+We have hidden the native radio button and wrapped in `ka-Checkbox` in order to have full control on the design.
 
 <div class="demo-block">
   <div class="ka-Checkbox">
@@ -55,15 +55,15 @@ Variables
 You can use these variables to customize it. Simply set one or multiple of these variables in `scss/styles/base.scss`.
 
 | Name  | Default value |
-| ------- |-----------:|
-|`$checkboxSize`| 24px |
-|`$checkboxBorderSize`| 2px |
-|`$checkboxBorderRadius`| 2.5px |
-|`$checkboxLabelPaddingLeft`|:12px |
-|`$checkboxBgColor`| white |
-|`$checkboxBorderColor`| black |
-|`$checkboxActiveColor`| white |
-|`$checkboxActiveBgColor`| black |
-|`$checkboxDescriptionColor`| rgba(0,0,0,0.8) |
+|-------|:-----------:|
+|`$checkboxSize`| `24px` |
+|`$checkboxBorderSize`| `2px` |
+|`$checkboxBorderRadius`| `2.5px` |
+|`$checkboxLabelPaddingLeft`| `12px` |
+|`$checkboxBgColor`|`white` |
+|`$checkboxBorderColor`| `black` |
+|`$checkboxActiveColor`| `white` |
+|`$checkboxActiveBgColor`| `black` |
+|`$checkboxDescriptionColor`| `rgba(0,0,0,0.8)` |
 
 

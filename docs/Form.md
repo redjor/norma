@@ -3,25 +3,41 @@
 
 The Form component helps you to contain and order your form controls with style.
 
+<div class="demo-block">
+  <div class="ka-Form">
+    <div class="ka-Form__wrapper is-rounded is-bordered">
+      <div class="ka-Form__container--title">Title</div>
+      <div class="ka-Form__container">
+        <div class="ka-Form__item ka-Spacing__base">
+          Add your form control
+        </div>
+      </div>
+      <div class="ka-Form__container--description">Description</div>
+    </div>
+  </div>  
+</div>
+
 ```html
 <div class="ka-Form">
-  <!-- The form is always wrapped --->
+  <!-- The form is always wrapped -->
   <div class="ka-Form__wrapper">
-    <!-- You can add a title --->
-    <div class="ka-Form__container--title"></div>
-    <!-- Always put Item in his container --->
+    <!-- You can add a title -->
+    <div class="ka-Form__container--title">Title</div>
+    <!-- Always put Item in his container -->
     <div class="ka-Form__container">
-      <!-- You can add as many as you want --->
+      <!-- You can add as many as you want -->
       <div class="ka-Form__item"></div>
     </div>
-  <!-- You can add a  helper text or a description --->
+    <!-- You can add a helper text or a description -->
     <div class="ka-Form__container--help"></div>
-    <div class="ka-Form__container--description"></div>
+    <div class="ka-Form__container--description">Description</div>
   </div>
 </div>  
 ```
+
 ## Container
 The `ka-Form__item`needs to be contained in the `ka-Form__container`, placed in `ka-Form__wrapper`.
+
 ```html
 <div class="ka-Form">
   <div class="ka-Form__wrapper">
@@ -36,7 +52,7 @@ The `ka-Form__item`needs to be contained in the `ka-Form__container`, placed in 
 Every control needs to be wrapped into `ka-Form__item`.
 ```html
 <div class="ka-Form__container">
-    <!-- You can add as many as you want --->
+    <!-- You can add as many as you want -->
     <div class="ka-Form__item"></div>
 </div>
 ```
@@ -45,7 +61,7 @@ Every control needs to be wrapped into `ka-Form__item`.
 You can add a title to your Form by adding an element with `ka-Form__container--title` just above the container.
 ```html
 <div class="ka-Form__container--title"></div>
-<!-- Always put Item in his container --->
+<!-- Always put Item in his container -->
 <div class="ka-Form__container"></div>
 ```
 
@@ -54,7 +70,7 @@ A description or an help message could be displayed below the `ka-Form__containe
 
 ```html
 <div class="ka-Form__container"></div>
-<!-- You can add a  helper text or a description --->
+<!-- You can add a  helper text or a description -->
 <div class="ka-Form__container--help"></div>
 <div class="ka-Form__container--description"></div>
 ```
@@ -89,18 +105,18 @@ You can use these variables to customize the Form and the Fieldset. Simply set o
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$formBorderColor` | rgba(0,0,0,.15) |
-|`$formBorderRadius` | 5.5px |
-|`$formBorderSize` | 1px |
-|`$formWrapperMrgBottom` | 1rem |
-|`$formItemInset` | 1rem |
-|`$formContainerTitleColor` | black |
-|`$formContainerTitleBgColor` | transparent |
-|`$formContainerBgColor` | white |
-|`$formContainerPadding` | .5rem .5rem .5rem 1rem |
-|`$formDescriptionColor` | grey |
-|`$formDescriptionBgColor` | lightgrey |
-|`$formHelpColor` | darkblue |
-|`$formHelpBgColor` | lightblue |
-|`$formHelpPadding` | .5rem 1rem .5rem 1.75rem |
+|`$formBorderColor` | `rgba(0,0,0,.15)` |
+|`$formBorderRadius` | `5.5px` |
+|`$formBorderSize` | `1px` |
+|`$formWrapperMrgBottom` | `1rem` |
+|`$formItemInset` | `1rem` |
+|`$formContainerTitleColor` | `black` |
+|`$formContainerTitleBgColor` | `transparent` |
+|`$formContainerBgColor` | `white` |
+|`$formContainerPadding` | `.5rem .5rem .5rem 1rem` |
+|`$formDescriptionColor` | `grey` |
+|`$formDescriptionBgColor` | `lightgrey` |
+|`$formHelpColor` | `darkblue` |
+|`$formHelpBgColor` | `lightblue` |
+|`$formHelpPadding` | `.5rem 1rem .5rem 1.75rem` |
 
