@@ -1,5 +1,7 @@
 <img src="./_assets/logo-big.svg" height="48px">
+
 #### Norma Design System
+
 Norma is a design system for making modern and beautiful interfaces. 
 
 <img src="./_assets/bg.jpg"
