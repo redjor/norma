@@ -8,10 +8,10 @@ The Modal component displays content above the view with an animation from the b
     <div class="ka-Modal__wrapper">
       <!-- Title -->
       <header class="ka-Modal__header has-dark-bg">
-        <div class="ka-Toolbar ka-Toolbar__dark">
-          <div class="ka-Toolbar__center ">
-            <div class="ka-Toolbar__center--container"> 
-              <span class="ka-Toolbar__title">Modal</span>
+        <div class="ka-Navbar ka-Navbar__dark">
+          <div class="ka-Navbar__center ">
+            <div class="ka-Navbar__center--container"> 
+              <span class="ka-Navbar__title">Modal</span>
             </div>
           </div>
         </div>

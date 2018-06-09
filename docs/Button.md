@@ -33,14 +33,58 @@ By default, the button is stylized with plain color and a border. But you can ad
 
 - **Outlined** :
 Add `is-outlined` class change the fill transparency and keep the border.
+<div class="demo-block" id="Demo">
+  <div class="ka-Buttons"> 
+    <button class="ka-Button ka-Button--white is-outlined">White</button>
+    <button class="ka-Button ka-Button--light is-outlined">Light</button> 
+    <button class="ka-Button ka-Button--dark is-outlined"> Dark</button>
+    <button class="ka-Button ka-Button--black is-outlined">Black</button>
+    <button class="ka-Button ka-Button--text is-outlined">Text</button>
+    <button class="ka-Button ka-Button--primary is-outlined">Primary</button>
+    <button class="ka-Button ka-Button--link is-outlined">Link</button> 
+    <button class="ka-Button ka-Button--info is-outlined">Info</button> 
+    <button class="ka-Button ka-Button--success is-outlined">Success</button> 
+    <button class="ka-Button ka-Button--warning is-outlined">Warning</button> 
+    <button class="ka-Button ka-Button--danger is-outlined">Danger</button>
+  </div>
+</div>
 -  **Rounded** :
 Add `is-rounded` class change the border radius to 60px.
+<div class="demo-block" id="Demo">
+  <div class="ka-Buttons"> 
+    <button class="ka-Button ka-Button--dark is-rounded"> Dark</button>
+  </div>
+</div>
 - **Fullwidth** :
 Add `is-fullwidth` class makes it 100% width:
+<div class="demo-block" id="Demo">
+    <button class="ka-Button ka-Button--dark is-fullwidth"> Dark</button>
+</div>
 - **Dark mode** :
 Add `dark-mode` class change it to be ready with dark background. 
+<div class="demo-block has-black-bg" id="Demo">
+  <div class="ka-Buttons"> 
+    <button class="ka-Button ka-Button--primary dark-mode">Primary</button> 
+    <button class="ka-Button ka-Button--primary dark-mode is-outlined">Primary Outlined</button>
+  </div>
+</div>
 - **Disabled** :
 Use the HTML5 attributes `disabled` will added some opacity to it.
+<div class="demo-block" id="Demo">
+  <div class="ka-Buttons"> 
+    <button class="ka-Button ka-Button--white" disabled>White</button>
+    <button class="ka-Button ka-Button--light" disabled>Light</button> 
+    <button class="ka-Button ka-Button--dark" disabled> Dark</button>
+    <button class="ka-Button ka-Button--black" disabled>Black</button>
+    <button class="ka-Button ka-Button--text" disabled>Text</button>
+    <button class="ka-Button ka-Button--primary" disabled>Primary</button>
+    <button class="ka-Button ka-Button--link" disabled>Link</button> 
+    <button class="ka-Button ka-Button--info" disabled>Info</button> 
+    <button class="ka-Button ka-Button--success" disabled>Success</button> 
+    <button class="ka-Button ka-Button--warning" disabled>Warning</button> 
+    <button class="ka-Button ka-Button--danger" disabled>Danger</button>
+  </div>
+</div>
 
 
 Colors

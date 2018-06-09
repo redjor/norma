@@ -56,6 +56,7 @@ Every control needs to be wrapped into `ka-Form__item`.
     <div class="ka-Form__item"></div>
 </div>
 ```
+** Inset ** : You can paddings to your item by adding `ka-Form__item--inset`.
 
 ## Title
 You can add a title to your Form by adding an element with `ka-Form__container--title` just above the container.

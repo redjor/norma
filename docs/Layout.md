@@ -39,19 +39,19 @@ You can positionned your content according to the cross axis, with the following
 
 | Position  | Classname |
 | ------- |:-----------:|
-| Top | `justify--top` |
-| Center | `justify--center` |
-| Space Between | `justify--between` |
-| Bottom | `justify--bottom` |
+| Top | `flex__justify--top` |
+| Center | `flex__justify--center` |
+| Space Between | `flex__justify--between` |
+| Bottom | `flex__justify--bottom` |
 
 ## Align
 You can positionned your content according to the main axis, with the following class:
 
 | Position  | Classname |
 | ------- |:-----------:|
-| Left | `align--left` |
-| Center | `align--center` |
-| Right | `align--right` |
+| Left | `flex__align--left` |
+| Center | `flex__align--center` |
+| Right | `flex__align--right` |
 
 ## Grow
 

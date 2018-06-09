@@ -20,7 +20,7 @@
   * [Map](Map.md) 
   * [Modal](Modal.md)
   * [Navbar](Navbar.md) 
-  * [Notifications](Notifications.md)
+  * [Notification](Notification.md)
   * [ProgressCircle](ProgressCircle.md)
   * [Radio](Radio.md)
   * [SearchInput](SearchInput.md)
