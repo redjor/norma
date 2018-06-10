@@ -394,7 +394,8 @@ body.sticky .sidebar,body.sticky .sidebar-toggle {
 
 .markdown-section td,.markdown-section th {
   border: 1px solid #ddd;
-  padding: 6px 13px
+  padding: 6px 13px;
+  font-size: 14px;
 }
 
 .markdown-section tr {
@@ -924,10 +925,10 @@ pre:after {
 }
 
 .color-block{
-  width: 24px;
+  width: 32px;
   height: 12px;
   display: inline-block;
-  border-radius: 60px;
+  border-radius: 5.5px;
   box-shadow: 0 2px 1px 0 rgba(0,0,0,.1), inset 0 0 0 1px rgba(0,0,0,.1);
   margin-right: 8px;
 }
