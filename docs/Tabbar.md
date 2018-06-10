@@ -61,24 +61,24 @@ You can use these variables to customize the Form and the Fieldset. Simply set o
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$tabbarHeight`| `48px` |
-|`$tabbarFontSize`| `16px` |
-|`$tabbarBorderSize`| `4px` |
-|`$tabbarIconSize`| `ceil( $tabbarHeight * 0.4 )` |
+|`$TabbarHeight`| `48px` |
+|`$TabbarFontSize`| `16px` |
+|`$TabbarBorderSize`| `4px` |
+|`$TabbarIconSize`| `ceil( $TabbarHeight * 0.4 )` |
 |`$font`| `family: -apple-system, helvetica, arial, sans-serif` |
 | **Light mode** | |
-|`$tabbarColor`| `grey` |
-|`$tabbarActiveColor`|`black` |
-|`$tabbarBgColor`| `white` |
-|`$tabbarBadgeColor`| `white` |
-|`$tabbarBadgeBgColor`| `black` |
-|`$tabbarActiveTabBorderColor`| `black` |
-|`$tabbarBorderColor`| `#F8F8F8` |
+|`$TabbarColor`| `grey` |
+|`$TabbarActiveColor`|`black` |
+|`$TabbarBgColor`| `white` |
+|`$TabbarBadgeColor`| `white` |
+|`$TabbarBadgeBgColor`| `black` |
+|`$TabbarActiveTabBorderColor`| `black` |
+|`$TabbarBorderColor`| `#F8F8F8` |
 | **Dark mode** ||
-|`$tabbarDarkActiveColor`| `white` |
-|`$tabbarDarkColor`| `grey` |
-|`$tabbarDarkBgColor`| `black` |
-|`$tabbarDarkBadgeColor`| `white` |
-|`$tabbarDarkBadgeBgColor`| `black` |
-|`$tabbarDarkActiveTabBorderColor`| `grey` |
-|`$tabbarDarkBorderColor`| `black` |
+|`$TabbarDarkActiveColor`| `white` |
+|`$TabbarDarkColor`| `grey` |
+|`$TabbarDarkBgColor`| `black` |
+|`$TabbarDarkBadgeColor`| `white` |
+|`$TabbarDarkBadgeBgColor`| `black` |
+|`$TabbarDarkActiveTabBorderColor`| `grey` |
+|`$TabbarDarkBorderColor`| `black` |

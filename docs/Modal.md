@@ -63,10 +63,10 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$modalBorderRadius` | `5.5px` |
-|`$modalMaxWidth` | `640px` |
-|`$modalShadow` |  `0 31px 41px 0 rgba(0,0,0,.2), 0 2px 16px 0 rgba(0,0,1,.08)` |
-|`$modalHeaderBorderColor` | `#F8F8F8` |
-|`$modalClosingAreaColor` | `rgba($dark, .25)` |
-|`$modalOverlayColor` | `black` |
-|`$modalZIndex` | `999` |
+|`$ModalBorderRadius` | `5.5px` |
+|`$ModalMaxWidth` | `640px` |
+|`$ModalShadow` |  `0 31px 41px 0 rgba(0,0,0,.2), 0 2px 16px 0 rgba(0,0,1,.08)` |
+|`$ModalHeaderBorderColor` | `#F8F8F8` |
+|`$ModalClosingAreaColor` | `rgba($dark, .25)` |
+|`$ModalOverlayColor` | `black` |
+|`$ModalZIndex` | `999` |

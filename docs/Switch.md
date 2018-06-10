@@ -29,7 +29,7 @@ You can use these variables to customize the Form and the Fieldset. Simply set o
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$switchButtonSize`| 24px |
-|`$switchButtonColor`| $white |
-|`$switchBgColor`| $cloud |
-|`$switchActiveBgColor`| $success |
+|`$SwitchButtonSize`| 24px |
+|`$SwitchButtonColor`| $white |
+|`$SwitchBgColor`| $cloud |
+|`$SwitchActiveBgColor`| $success |

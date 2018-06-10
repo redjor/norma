@@ -18,10 +18,10 @@ You can use these variables to customize the Form and the Fieldset. Simply set o
 
 | Name  | Default value |
 | ------- |-----------:|
-|`$searchInputColor`| $dark |
-|`$searchInputBgColor`| $cloud-light |
-|`$searchInputHeight`| 32px |
-|`$searchInputPadding`| 0 8px 0 32px |
-|`$searchInputBorderRadius`| 5.5px |
-|`$searchInputPlaceholderColor`| $dark |
-|`$searchInputPlaceholderFontSize`| 14px |
+|`$SearchInputColor`| $dark |
+|`$SearchInputBgColor`| $cloudlight |
+|`$SearchInputHeight`| 32px |
+|`$SearchInputPadding`| 0 8px 0 32px |
+|`$SearchInputBorderRadius`| 5.5px |
+|`$SearchInputPlaceholderColor`| $dark |
+|`$SearchInputPlaceholderFontSize`| 14px |

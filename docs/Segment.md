@@ -35,8 +35,8 @@ You can use these variables to customize the Form and the Fieldset. Simply set o
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$segmentColor`| `black` |
-|`$segmentBgColor`| `transparent` |
-|`$segmentActiveColor`| `white` |
-|`$segmentActiveBgColor`| `black` |
-|`$segmentBorderRadius`| `4px` |
+|`$SegmentColor`| `black` |
+|`$SegmentBgColor`| `transparent` |
+|`$SegmentActiveColor`| `white` |
+|`$SegmentActiveBgColor`| `black` |
+|`$SegmentBorderRadius`| `4px` |

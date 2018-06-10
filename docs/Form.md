@@ -106,18 +106,18 @@ You can use these variables to customize the Form and the Fieldset. Simply set o
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$formBorderColor` | `rgba(0,0,0,.15)` |
-|`$formBorderRadius` | `5.5px` |
-|`$formBorderSize` | `1px` |
-|`$formWrapperMrgBottom` | `1rem` |
-|`$formItemInset` | `1rem` |
-|`$formContainerTitleColor` | `black` |
-|`$formContainerTitleBgColor` | `transparent` |
-|`$formContainerBgColor` | `white` |
-|`$formContainerPadding` | `.5rem .5rem .5rem 1rem` |
-|`$formDescriptionColor` | `grey` |
-|`$formDescriptionBgColor` | `lightgrey` |
-|`$formHelpColor` | `darkblue` |
-|`$formHelpBgColor` | `lightblue` |
-|`$formHelpPadding` | `.5rem 1rem .5rem 1.75rem` |
+|`$FormBorderColor` | `rgba(0,0,0,.15)` |
+|`$FormBorderRadius` | `5.5px` |
+|`$FormBorderSize` | `1px` |
+|`$FormWrapperMrgBottom` | `1rem` |
+|`$FormItemInset` | `1rem` |
+|`$FormContainerTitleColor` | `black` |
+|`$FormContainerTitleBgColor` | `transparent` |
+|`$FormContainerBgColor` | `white` |
+|`$FormContainerPadding` | `.5rem .5rem .5rem 1rem` |
+|`$FormDescriptionColor` | `grey` |
+|`$FormDescriptionBgColor` | `lightgrey` |
+|`$FormHelpColor` | `darkblue` |
+|`$FormHelpBgColor` | `lightblue` |
+|`$FormHelpPadding` | `.5rem 1rem .5rem 1.75rem` |
 

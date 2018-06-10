@@ -45,11 +45,11 @@ You can use these variables to customize it. Simply set one or multiple of these
 
 | Name  | Default value |
 | ------- |-----------:|
-|`$radioSize:`| `24px`|
-|`$radioBorderSize`| `2px`|
-|`$radioLabelPaddingLeft`| `12px`|
-|`$radioBgColor`| `$white`|
-|`$radioBorderColor`| `$cloud`|
-|`$radioActiveColor`| `$white`|
-|`$radioActiveBgColor`| `$primary`|
-|`$radioDescriptionColor`| `$dark-lighter`|
+|`$RadioSize:`| `24px`|
+|`$RadioBorderSize`| `2px`|
+|`$RadioLabelPaddingLeft`| `12px`|
+|`$RadioBgColor`| `$white`|
+|`$RadioBorderColor`| `$cloud`|
+|`$RadioActiveColor`| `$white`|
+|`$RadioActiveBgColor`| `$primary`|
+|`$RadioDescriptionColor`| `$darklighter`|

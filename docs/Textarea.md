@@ -47,7 +47,7 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-| `$textAreaLabelColor`| `$dark-lightest` |
-| `$textAreaFontSize`| `15px` |
-| `$textAreaColor`| `$black` |
-| `$textAreaBgColor`| `$white` |
+| `$TextareaLabelColor`| `$darklightest` |
+| `$TextareaFontSize`| `15px` |
+| `$TextareaColor`| `$black` |
+| `$TextareaBgColor`| `$white` |

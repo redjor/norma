@@ -117,24 +117,24 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-| `$listLabelColor`| `black` |
-| `$listBgColor`| `white` |
-| `$listInsetRadius`| `5.5px` |
-| `$listBorderColor`| `#BCBBC1` |
-| `$listShadow`| `0 .1rem .2rem .1rem rgba(0,0,0,.1)` |
+| `$ListLabelColor`| `black` |
+| `$ListBgColor`| `white` |
+| `$ListInsetRadius`| `5.5px` |
+| `$ListBorderColor`| `#BCBBC1` |
+| `$ListShadow`| `0 .1rem .2rem .1rem rgba(0,0,0,.1)` |
 | **Title** ||
-| `$listTitleColor`| `black` |
-| `$listTitleBgColor`| `transparent` |
-| `$listTitlePadding`| `4px 16px` |
+| `$ListTitleColor`| `black` |
+| `$ListTitleBgColor`| `transparent` |
+| `$ListTitlePadding`| `4px 16px` |
 | **Header** ||
-| `$listHeaderHeight`| `2rem` |
-| `$listHeaderColor`| `black` |
-| `$listHeaderBgColor`| `#F8F8F8` |
+| `$ListHeaderHeight`| `2rem` |
+| `$ListHeaderColor`| `black` |
+| `$ListHeaderBgColor`| `#F8F8F8` |
 | **List Item** ||
-| `$listItemHeight`| `54px` |
-| `$listItemColor`| `black` |
-| `$listItemTitleColor`| `black` |
-| `$listItemSubtitleColor`| `grey` |
-| `$listItemBorderColor`| `lightgrey` |
-| `$listThumbnailRadius`| `4px` |
-| `$listChevronColor`| `black` |
+| `$ListItemHeight`| `54px` |
+| `$ListItemColor`| `black` |
+| `$ListItemTitleColor`| `black` |
+| `$ListItemSubtitleColor`| `grey` |
+| `$ListItemBorderColor`| `lightgrey` |
+| `$ListThumbnailRadius`| `4px` |
+| `$ListChevronColor`| `black` |

@@ -47,9 +47,9 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$textInputLabelFontSize` | `12px` |
-|`$textInputLabelColor` | `$darklight` |
-|`$textInputBgColor` | `transparent` |
-|`$textInputInputFontSize` | `1rem` |
-|`$textInputInputHeight` | `16px` |
-|`$textInputFocusColor` | `$purpledark` |
+|`$TextInputLabelFontSize` | `12px` |
+|`$TextInputLabelColor` | `$darklight` |
+|`$TextInputBgColor` | `transparent` |
+|`$TextInputInputFontSize` | `1rem` |
+|`$TextInputInputHeight` | `16px` |
+|`$TextInputFocusColor` | `$purpledark` |

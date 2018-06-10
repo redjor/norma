@@ -148,11 +148,11 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$buttonHeight`| `48px` |
-|`$buttonFontSize`| `16px` |
-|`$buttonRadius`| `5.5px` |
-|`$buttonDisabledOpacity`| `.5` |
-|`$buttonsMargin`| `.5rem` |
+|`$ButtonHeight`| `48px` |
+|`$ButtonFontSize`| `16px` |
+|`$ButtonRadius`| `5.5px` |
+|`$ButtonDisabledOpacity`| `.5` |
+|`$ButtonsMargin`| `.5rem` |
 
 > More to come
 > - [ ] Loading

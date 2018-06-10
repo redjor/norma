@@ -56,14 +56,14 @@ You can use these variables to customize it. Simply set one or multiple of these
 
 | Name  | Default value |
 |-------|:-----------:|
-|`$checkboxSize`| `24px` |
-|`$checkboxBorderSize`| `2px` |
-|`$checkboxBorderRadius`| `2.5px` |
-|`$checkboxLabelPaddingLeft`| `12px` |
-|`$checkboxBgColor`|`white` |
-|`$checkboxBorderColor`| `black` |
-|`$checkboxActiveColor`| `white` |
-|`$checkboxActiveBgColor`| `black` |
-|`$checkboxDescriptionColor`| `rgba(0,0,0,0.8)` |
+|`$CheckboxSize`| `24px` |
+|`$CheckboxBorderSize`| `2px` |
+|`$CheckboxBorderRadius`| `2.5px` |
+|`$CheckboxLabelPaddingLeft`| `12px` |
+|`$CheckboxBgColor`|`white` |
+|`$CheckboxBorderColor`| `black` |
+|`$CheckboxActiveColor`| `white` |
+|`$CheckboxActiveBgColor`| `black` |
+|`$CheckboxDescriptionColor`| `rgba(0,0,0,0.8)` |
 
 

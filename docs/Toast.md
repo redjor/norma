@@ -66,8 +66,8 @@ You can use these variables to customize it. Simply set one or multiple of these
 
 | Name  | Default value |
 | ------- |:-----------:|
-|`$toastBorderRadius`| 5.5px |
-|`$toastMargin`| .5rem |
-|`$toastPadding`| .5rem 1rem |
-|`$toastBoxShadow`|  0 1rem 2rem rgba(0,0,0,.2) |
-|`$toastZIndex`| 1500 |
+|`$ToastBorderRadius`| `5.5px` |
+|`$ToastMargin`| `.5rem` |
+|`$ToastPadding`| `.5rem 1rem` |
+|`$ToastBoxShadow`|  `0 1rem 2rem rgba(0,0,0,.2)` |
+|`$ToastZIndex`| `1500` |

@@ -49,10 +49,10 @@ You can use these variables to customize this element. Simply set one or multipl
 
 | Name  | Default value |
 | ------- |:-----------:|
-| `$textFieldBgColor`| `$white` |
-| `$textFieldColor`| `$dark` |
-| `$textFieldIconColor`| `$purpledark` |
-| `$textFieldMessageColor`| `$white` |
-| `$textFieldMessageBgColor`| `$black` |
-| `$textFieldHelpBgColor`| `$cloud` |
-| `$textFieldPadding`| `16px` |
+| `$TextFieldBgColor`| `$white` |
+| `$TextFieldColor`| `$dark` |
+| `$TextFieldIconColor`| `$purpledark` |
+| `$TextFieldMessageColor`| `$white` |
+| `$TextFieldMessageBgColor`| `$black` |
+| `$TextFieldHelpBgColor`| `$cloud` |
+| `$TextFieldPadding`| `16px` |

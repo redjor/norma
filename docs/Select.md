@@ -29,10 +29,10 @@ You can use these variables to customize it. Simply set one or multiple of these
 
 | Name  | Default value |
 | ------- |-----------:|
-| `$selectLabelFontSize`| `12px` |
-| `$selectLabelColor`| `$darklight` |
-| `$selectBgColor`| `transparent` |
-| `$selectFontSize`| `16px` |
-| `$selectHeight`| `16px` |
-| `$selectColor`| `$purpledark` |
-| `$selectChevronColor`| `$black` |
+| `$SelectLabelFontSize`| `12px` |
+| `$SelectLabelColor`| `$darklight` |
+| `$SelectBgColor`| `transparent` |
+| `$SelectFontSize`| `16px` |
+| `$SelectHeight`| `16px` |
+| `$SelectColor`| `$purpledark` |
+| `$SelectChevronColor`| `$black` |
