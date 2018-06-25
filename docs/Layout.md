@@ -1,4 +1,5 @@
 # Layout
+?> Deprecated
 #### We are in position
 The Layout component helps you to design the structure of your app.
 

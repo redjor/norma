@@ -718,6 +718,13 @@ section.cover blockquote>p>a:hover {
   margin: 0 0 1rem
 }
 
+.markdown-section h1 ~ h4 {
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: 1rem;
+  opacity: .5;
+}
+
 .markdown-section h2 {
   font-size: 1.75rem;
   margin: 20px 0 .8rem;
